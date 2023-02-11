@@ -1,12 +1,12 @@
 # Base information
-baseURL = "https://umarbaev-s.github.io"
+baseURL = "https://example.com"
 languageCode = "en-gb"
-title = "Portfolio"
+title = "Sam Robbins"
 googleAnalytics = ""
 
 # Remove this when using normally
-# themesDir = "../" 
-# theme = "."
+themesDir = "../" 
+theme = "."
 # 
 #[module]
 #  [[module.imports]]
@@ -44,17 +44,17 @@ googleAnalytics = ""
   URL = "portfolio"
   weight=3
 
-#  [[menu.main]]
-#  name = "Contact"
-#  URL = "contact"
-#  weight=4
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight=4
 
 
 [params]
 home = "Home"
 # Meta data
-description = "The portfolio of Sultan Umarbaev, Software Engineer"
-author = "Sultan Umarbaev"
+description = "The website of Sam Robbins, 2nd Year Computer Science Student at Durham University"
+author = "Sam Robbins"
 
 
   [params.contact]
@@ -62,9 +62,9 @@ author = "Sultan Umarbaev"
   formAction = "" #contact form works with formspree.io
 
   [params.footer]
-  email = "name.sul27@gmail.com"
-  address = "Bishkek, KG"
-#  googlemaps = "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJwbHYJaUqfEgRK0Ui9dVGimc&key=AIzaSyAE_4rVAKux_DSPcb_OdSRDaovtPOSk_3U"
+  email = "samrobbinsgb@gmail.com"
+  address = "Durham, UK"
+  googlemaps = "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJwbHYJaUqfEgRK0Ui9dVGimc&key=AIzaSyAE_4rVAKux_DSPcb_OdSRDaovtPOSk_3U"
 
 [markup]
   [markup.highlight]
