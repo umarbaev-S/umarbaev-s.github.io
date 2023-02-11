@@ -13,14 +13,14 @@
 
 .footer-section h5 {
   margin-bottom: 5px;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .footer {
   flex-shrink: 0;
   background: #fafafa;
   border-top: 1px solid #eaeaea;
-  padding-top: 5em;
+  padding-top: 2em;
 }
 
 .uk-link,
@@ -39,7 +39,7 @@ a {
 }
 
 .imagemargin {
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 
 figcaption p {
@@ -58,4 +58,17 @@ em {
 img.experience {
   width: 150px;
   height: 180px;
+}
+
+
+/* .uk-navbar-transparent { */
+  /* filter: invert(1); */
+  /* background: darkslategrey; */
+/* } */
+/* footer { */
+  /* filter: invert(1); */
+  /* color: black; */
+/* } */
+body {
+  background-color:ghostwhite;
 }

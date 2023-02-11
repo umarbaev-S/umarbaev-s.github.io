@@ -4,7 +4,7 @@
 /*}*/
 
 li {
-    font-weight: 400;
+    font-weight: 450;
     color: #454545;
     font-size: 1rem;
     line-height: 1.8;
@@ -15,31 +15,31 @@ ul.icons {
     cursor: default;
     list-style: none;
     padding-left: 0;
-    margin-top: -0.675em;
+    margin-top: 1em;
 }
 
 ul.icons li {
     display: inline-block;
-    padding: 0.675em 0.5em;
+    padding: 1em 0.5em;
 }
 
 ul.icons li a {
     text-decoration: none;
     position: relative;
     display: block;
-    width: 7em;
-    height: 7em;
+    width: 5em;
+    height: 5em;
     border-radius: 100%;
     border: solid 1px grey;
-    line-height: 6.75em;
+    line-height: 4.75em;
     overflow: hidden;
     text-align: center;
     white-space: nowrap;
 }
 
 ul.icons li a img{
-    width: 5em;
-    height: 5em;
+    width: 4em;
+    height: 4em;
 }
 
 ul.icons li a:before {
@@ -51,7 +51,7 @@ ul.icons li a:before {
     text-rendering: auto;
     line-height: 1;
     text-transform: none !important;
-    font-weight: 400;
+    font-weight: 450;
 }
 
 ul.icons li a:before {
@@ -76,7 +76,7 @@ ul.icons li a:before {
 }
 
 ul.icons li a:hover {
-    border-color: #454545;
+    border-color: #000000;
 }
 
 @media screen and (max-width: 480px) {
@@ -100,7 +100,7 @@ img.certs{
 
 img.experience{
     width: 150px;
-    height: 180px;
+    height: 150px;
 }
 
 a.unset{
