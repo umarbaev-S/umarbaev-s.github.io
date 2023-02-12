@@ -15,7 +15,7 @@
 </style>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     {{- partial "head.html" . -}}
-    <body class="{{.Section}}">
+    <body class="{{.Section}} dark-mode">
     <div class="wrapper">
         {{- partial "header.html" . -}}
         {{- block "main" . }}{{- end }}

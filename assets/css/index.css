@@ -30,7 +30,7 @@ ul.icons li a {
     width: 5em;
     height: 5em;
     border-radius: 100%;
-    border: solid 1px grey;
+    border: solid 2px #454545;
     line-height: 4.75em;
     overflow: hidden;
     text-align: center;
@@ -73,10 +73,11 @@ ul.icons li a:before {
     line-height: inherit;
     text-align: center;
     text-indent: 0;
+    border-color: #454545;
 }
 
 ul.icons li a:hover {
-    border-color: #000000;
+    border-color: #ffffff;
 }
 
 @media screen and (max-width: 480px) {

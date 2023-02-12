@@ -217,16 +217,36 @@
 <!-- experience -->
 {{ if .Site.Data.homepage.experience.enable }}
 
+{{ range .Site.Data.homepage.experience.item }}
+<div id="modal_{{cond (isset . "titlealt") .titlealt (replaceRE "\\W" "_" .title) }}" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">{{.title}}</h2>
+        </div>
+
+        <ul>
+        {{ range .description }}
+            <li>{{ .desc | safeHTML}}</li>
+        {{ end }}
+        </ul>
+    </div>
+</div>
+{{ end }}
+
 <section class="uk-margin-xlarge-bottom">
     <div class="uk-container">
         <h1 class="uk-heading-line uk-heading-small"><span>Experience</span></h1>
 
+        <p class="uk-text-center uk-text-lead"><i>Click the cards below for more details</i></p>
         <div class="uk-grid-large uk-child-width-1-4@s uk-child-width-1 uk-text-center uk-flex-center" uk-grid
             style="padding-left: 10px; padding-right: 40px">
 
             {{ range .Site.Data.homepage.experience.item }}
-            <div>
-                <div class="uk-card uk-card-default uk-height-max-large">
+            <div class="uk-transition-toggle" tabindex="0">
+                <!-- <div class="uk-card uk-card-default uk-height-max-large"> -->
+                <div class="uk-card uk-card-default uk-height-max-large uk-card-hover uk-transition-scale-up uk-transition-opaque" style="cursor: pointer"
+                    uk-toggle="target: #modal_{{cond (isset . "titlealt") .titlealt (replaceRE "\\W" "_" .title) }}">
                     <div class="uk-card-media-top">
                         <img class="contain experience" src="{{.logo}}" alt="" style="padding: 20px" loading="lazy">
                     </div>
