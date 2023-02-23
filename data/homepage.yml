@@ -18,77 +18,79 @@ about:
 skill:
   enable: true
   item:
-    - title: JavaScript
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
-      description: Details coming soon, contact me if you want to know moreDetails coming soon, contact me if you want to know moreDetails coming soon, contact me if you want to know more
-    - title: JavaScript
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
-      description: Details coming soon, contact me if you want to know moreDetails coming soon, contact me if you want to know moreDetails coming soon, contact me if you want to know more
-    - title: JavaScript
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
-      description: Details coming soon, contact me if you want to know moreDetails coming soon, contact me if you want to know moreDetails coming soon, contact me if you want to know more
-    - title: JavaScript
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
-      description: Details coming soon, contact me if you want to know moreDetails coming soon, contact me if you want to know moreDetails coming soon, contact me if you want to know more
-    - title: JavaScript
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
-      description: Details coming soon, contact me if you want to know moreDetails coming soon, contact me if you want to know moreDetails coming soon, contact me if you want to know more
-    - title: JavaScript
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
-      description: Details coming soon, contact me if you want to know moreDetails coming soon, contact me if you want to know moreDetails coming soon, contact me if you want to know more
-    - title: JavaScript
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
-      description: Details coming soon, contact me if you want to know moreDetails coming soon, contact me if you want to know moreDetails coming soon, contact me if you want to know more
+    - title: Spring Boot
+      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/springboot.svg
+      description: Mainly used at work. Developed several microservices. 
+    - title: PostgresSQL
+      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/postgres.svg
+      description: Used at work as main RDMS for microservices.
+    - title: Docker
+      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/docker.svg
+      description: Experienced in creating and deploying docker containers. 
+    - title: GraphQL
+      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/graphql.svg
+      description: Used at work for APIs. Integrate front-end applications with microservices
+    - title: Git
+      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/git.svg
+      description: Experienced with git-based development procedure.
+    - title: Windows
+      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/windows.svg
+      description: Main operating system at work.
+    - title: Linux
+      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/linux.svg
+      description: Main OS for side projects. Little experience with writing simple bash/shell scripts. Used as main OS for servers at work.
+    - title: Rust
+      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/rust.svg
+      description: Currenly learning and using for solving Advent of Code 2022 and side projects.
+    - title: C
+      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/c.svg
+      description: Experienced and used for developing Linux Kernel Module during my Master studies.
+    - title: C++
+      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/c++.svg
+      description: Experienced and used for data structures and algorithms during my Bachelor studies.
+    - title: Python
+      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/python.svg
+      description: Experienced and used for small projects and machine learning projects during my Master studies.
 experience:
   enable: true
   item:
-    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
-      title: init.g
-      company: Google
-      duration: November 2019
+    - logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/experience/ob_logo.png
+      title: Java Spring Boot Developer
+      company: OJSC Optima Bank
+      duration: September 2022 - Present
       description:
-        - desc: test
-        - desc: test
-        - desc: test
-    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
-      title: init.g
-      company: Google
-      duration: November 2019
+        - desc: Worked on project - Optima-business (remote banking service system) for legal entities
+        - desc: Developed integral components of the system (microservice architecture) - business and validation rule engine service for payments, service for generating payment documents from templates, service for importing payments using specific files with custom formats, etc.
+        - desc: Wrote functions/stored procedures in PostgreSQL - search and filtering, unique document number generation
+    - logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/experience/fs_logo.png
+      title: Full Stack .NET Developer
+      company: FinanceSoft
+      duration: May 2022 - August 2022 (3 mth.)
       description:
-        - desc: test
-        - desc: test
-        - desc: test
-    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
-      title: init.g
-      company: Google
-      duration: November 2019
+        - desc: Worked on projects - Loan Conveyor, Central Back Office(CBO)
+        - desc: Conducted debugging and maintenance of the existing web applications(Loan Conveyor, CBO)
+        - desc: Implemented and added new components and features to a new conveyor for a new client according to the project requirements(Loan Conveyor)
+        - desc: Performed updates of the test servers with the new project versions
+    - logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/experience/naskr_logo.png
+      title: Engineer in Institute of Automatics and IT
+      company: National Academy of Sciences of Kyrgyzstan
+      duration: December 2019 - July 2020 (6 mth.)
       description:
-        - desc: test
-        - desc: test
-        - desc: test
-    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
-      title: init.g
-      company: Google
-      duration: November 2019
-      description:
-        - desc: test
-        - desc: test
-        - desc: test
+        - desc: Worked on the project of developing a prototype of air pollution monitoring system for Bishkek
+        - desc: Conducted market research on transceivers and sensor devices
+        - desc: Implemented early version of data management architecture using Mosquitto, Telegraf, InfluxDB, Grafana and Docker technologies
+        - desc: Implemented basic mesh network using NodeMCU devices (with ESP8266 WiFi chips) to transmit data between nodes and store it in database
 education:
   enable: true
   item:
-    - title: BSc Computer Science
-      year: 2018 - Present
-      academy: Durham University
-      image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793268/logos/logos_Durham_fc2sae.svg
-    - title: BSc Computer Science
-      year: 2018 - Present
-      academy: Durham University
-      image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793268/logos/logos_Durham_fc2sae.svg
-    - title: BSc Computer Science
-      year: 2018 - Present
-      academy: Durham University
-      image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793268/logos/logos_Durham_fc2sae.svg
+    - title: MS in Engineering in Computer Science
+      year: 2020 - 2022 (Not Completed)
+      academy: Sapienza University of Rome
+      image: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/education/sapienza_logo.png
+    - title: BA in Software Engineering
+      year: 2016 - 2020
+      academy: American University of Central Asia
+      image: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/education/auca_logo.jpeg
 hackathons:
   enable: false
   item:
