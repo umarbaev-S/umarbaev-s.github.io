@@ -38,10 +38,10 @@ skill:
       description: Main operating system at work.
     - title: Linux
       logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/linux.svg
-      description: Main OS for side projects. Little experience with writing simple bash/shell scripts. Used as main OS for servers at work.
+      description: Main OS for personal projects. Little experience with writing simple bash/shell scripts. Used as main OS for servers at work.
     - title: Rust
       logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/rust.svg
-      description: Currenly learning and using for solving Advent of Code 2022 and side projects.
+      description: Currenly learning and using for solving Advent of Code 2022 and personal projects.
     - title: C
       logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/c.svg
       description: Experienced and used for developing Linux Kernel Module during my Master studies.
@@ -54,7 +54,7 @@ skill:
 experience:
   enable: true
   item:
-    - logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/experience/ob_logo.png
+    - logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/experience/ob_logo.jpg
       title: Java Spring Boot Developer
       company: OJSC Optima Bank
       duration: September 2022 - Present
