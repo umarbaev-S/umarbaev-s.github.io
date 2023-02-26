@@ -11,7 +11,7 @@ social:
   gmail: name.sul27
 about:
   enable: true
-  content: Software Engineer
+  content: Software Engineer, interested in System Design and Low-Level Engineering
   # button:
     # btnText: Find out more
     # URL: "/about"
@@ -20,37 +20,40 @@ skill:
   item:
     - title: Spring Boot
       logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/springboot.svg
-      description: Mainly used at work. Developed several microservices. 
+      description: Mainly used at work for developing microservices
     - title: PostgresSQL
       logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/postgres.svg
-      description: Used at work as main RDMS for microservices.
-    - title: Docker
-      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/docker.svg
-      description: Experienced in creating and deploying docker containers. 
+      description: Used at work as main RDMS for microservices
+    - title: RabbitMQ
+      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/rabbitmq.svg
+      description: Used at work for microservice communications
     - title: GraphQL
       logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/graphql.svg
-      description: Used at work for APIs. Integrate front-end applications with microservices
+      description: Used at work for API specification
+    - title: Docker
+      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/docker.svg
+      description: Experienced in creating and deploying docker containers
     - title: Git
       logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/git.svg
-      description: Experienced with git-based development procedure.
+      description: Experienced with git-based development procedure
     - title: Windows
       logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/windows.svg
-      description: Main operating system at work.
+      description: Main operating system at work
     - title: Linux
       logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/linux.svg
-      description: Main OS for personal projects. Little experience with writing simple bash/shell scripts. Used as main OS for servers at work.
+      description: Main OS for personal projects. Slightly experienced with writing simple bash/shell scripts. Used as main OS for servers at work
     - title: Rust
       logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/rust.svg
-      description: Currenly learning and using for solving Advent of Code 2022 and personal projects.
+      description: Currenly learning and using for solving Advent of Code 2022 and personal projects
     - title: C
       logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/c.svg
-      description: Experienced and used for developing Linux Kernel Module during my Master studies.
+      description: Experienced and used for developing Linux Loadable Kernel Modules during my Master studies
     - title: C++
       logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/c++.svg
-      description: Experienced and used for data structures and algorithms during my Bachelor studies.
+      description: Experienced and used for data structures and algorithms, computer graphics during my Bachelor studies
     - title: Python
       logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/python.svg
-      description: Experienced and used for small projects and machine learning projects during my Master studies.
+      description: Slightly experienced and used for small projects and machine learning during my Master studies
 experience:
   enable: true
   item:
@@ -60,8 +63,8 @@ experience:
       duration: September 2022 - Present
       description:
         - desc: Worked on project - Optima-business (remote banking service system) for legal entities
-        - desc: Developed integral components of the system (microservice architecture) - business and validation rule engine service for payments, service for generating payment documents from templates, service for importing payments using specific files with custom formats, etc.
-        - desc: Wrote functions/stored procedures in PostgreSQL - search and filtering, unique document number generation
+        - desc: Developed integral components of the system (microservice architecture) - business and validation rule engine service for payments, service for generating payment documents from templates, service for importing payments using files with custom formats, etc.
+        - desc: Wrote functions/stored procedures in PostgreSQL - search with filtering, unique document number generation base on requirements
     - logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/experience/fs_logo.png
       title: Full Stack .NET Developer
       company: FinanceSoft
