@@ -117,5 +117,5 @@ leadership:
       duration: September 2014 - July 2018
 portfolio:
   filter:
-    - label: Web Dev
-      value: web-dev
+    - label: Education
+      value: education
