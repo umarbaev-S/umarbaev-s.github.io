@@ -17,7 +17,7 @@ about:
     URL: "files/CV_Resume_eng.pdf"
   button2:
     btnText: resume (ru)
-    URL: "files/CV_Resume_ru.pdf"
+    URL: "files/CV_Resume_rus.pdf"
 skill:
   enable: true
   item:
