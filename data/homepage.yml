@@ -22,45 +22,45 @@ skill:
   enable: true
   item:
     - title: Rust
-      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/rust.svg
+      logo: images/skills/rust.svg
       description: Currently learning and using for personal projects
     - title: C
-      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/c.svg
+      logo: images/skills/c.svg
       description: Experienced and used for developing Linux Loadable Kernel Module during my Master studies
     - title: C++
-      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/c++.svg
+      logo: images/skills/c++.svg
       description: Experienced and used for data structures and algorithms, computer graphics during my Bachelor studies
     - title: Spring Boot
-      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/springboot.svg
+      logo: images/skills/springboot.svg
       description: Mainly used at work for developing microservices
     - title: PostgresSQL
-      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/postgres.svg
+      logo: images/skills/postgres.svg
       description: Used at work as main RDMS for microservices
     - title: RabbitMQ
-      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/rabbitmq.svg
+      logo: images/skills/rabbitmq.svg
       description: Used at work for microservice communications
     - title: GraphQL
-      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/graphql.svg
+      logo: images/skills/graphql.svg
       description: Used at work for API specification
     - title: Docker
-      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/docker.svg
+      logo: images/skills/docker.svg
       description: Experienced in creating and deploying docker containers
     - title: Git
-      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/git.svg
+      logo: images/skills/git.svg
       description: Experienced with git-based development procedure
     - title: Windows
-      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/windows.svg
+      logo: images/skills/windows.svg
       description: Main operating system at work
     - title: Linux
-      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/linux.svg
+      logo: images/skills/linux.svg
       description: Main OS for personal projects. Slightly experienced with writing simple bash/shell scripts. Used as main OS for servers at work
     - title: Python
-      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/python.svg
+      logo: images/skills/python.svg
       description: Slightly experienced and used for small projects and machine learning during my Master studies
 experience:
   enable: true
   item:
-    - logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/experience/ob_logo.jpg
+    - logo: images/experience/ob_logo.jpg
       title: Java Spring Boot Developer
       company: OJSC Optima Bank
       duration: September 2022 - Present
@@ -69,7 +69,7 @@ experience:
         - desc: Developed integral components of the system (microservice architecture) - business and validation rule engine service for payments, service for generating payment documents from templates, service for importing payments using files with custom formats, etc.
         - desc: Wrote functions/stored procedures in PostgreSQL - search with filtering, unique document number generation base on requirements
         - desc: Contributed on the development and maintainment of the payment service
-    - logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/experience/fs_logo.png
+    - logo: images/experience/fs_logo.png
       title: Full Stack .NET Developer
       company: FinanceSoft
       duration: May 2022 - August 2022 (3 mth.)
@@ -78,7 +78,7 @@ experience:
         - desc: Conducted debugging and maintenance of the existing web applications(Loan Conveyor, CBO)
         - desc: Implemented and added new components and features to a new conveyor for a new client according to the project requirements(Loan Conveyor)
         - desc: Performed updates of the test servers with the new project versions
-    - logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/experience/naskr_logo.png
+    - logo: images/experience/naskr_logo.png
       title: Engineer in Institute of Automatics and IT
       company: National Academy of Sciences of Kyrgyzstan
       duration: December 2019 - July 2020 (6 mth.)
@@ -93,11 +93,11 @@ education:
     - title: MS in Engineering in Computer Science
       year: 2020 - 2022 (Not Completed)
       academy: Sapienza University of Rome
-      image: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/education/sapienza_logo.png
+      image: images/education/sapienza_logo.png
     - title: BA in Software Engineering
       year: 2016 - 2020
       academy: American University of Central Asia
-      image: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/education/auca_logo.jpeg
+      image: images/education/auca_logo.jpeg
 hackathons:
   enable: false
   item:

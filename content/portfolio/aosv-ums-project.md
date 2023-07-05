@@ -4,11 +4,11 @@ coders = []
 date = 2023-07-03
 description = "AOSV Final Project"
 github = ["https://github.com/umarbaev-S/AOSV-project"]
-image = "https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/other/academic.png"
+image = "images/other/academic.png"
 title = "User Mode thread Scheduling"
 type = "post"
 [[tech]]
-logo = "https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/c.svg"
+logo = "images/skills/c.svg"
 name = "C"
 url = "https://github.com/umarbaev-S/AOSV-project/tree/master/src"
 
@@ -28,7 +28,7 @@ The main components of the UMS mechanism in this implementation are:
  - *completion list*, the list of worker threads to be associated with scheduler
 
 The execution flow is shown below: 
-![exec flow](https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/portfolio/ums/execution_flow.jpg)
+![exec flow](../images/ums/execution_flow.jpg)
 
 As shown in the flow, in order to begin utilization of UMS mechanism the application in user space needs to initialize it by `init_ums()`. It makes IOCTL call to invoke `init_ums_process()` which creates necessary structures associated with the application in kernel space.
 After that, UMS mechanism is enabled for this application and user can create completion lists and worker threads. This is done with the help of `create_completion_list()` and `create_worker_thread()`. Worker threads are built with *task routine* and required parameters, and completion lists are filled with worker threads by `add_worker_thread()` manually.
@@ -44,11 +44,11 @@ The implementation was built on the following environment:
 - Architecture: x86-64
 
 The log information examples of the library and module are shown the following pictures:
-![library log](https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/portfolio/ums/lib_log_info.png)
+![library log](../images/ums/lib_log_info.png)
 
-![module log1](https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/portfolio/ums/module_log_info.png)
+![module log1](../images/ums/module_log_info.png)
 
-![module log2](https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/portfolio/ums/module_log_info_2.png)
+![module log2](../images/ums/module_log_info_2.png)
 
 The measured benchmark sample of the project is the average time needed for a scheduler thread to switch a worker thread which is in range between 150-250 ms. 
 
