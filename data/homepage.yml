@@ -1,6 +1,6 @@
 ---
 banner:
-  title: Sultan (Sulley)
+  title: Sultan
 social:
   twitter: ""
   linkedin: ""
@@ -18,6 +18,15 @@ about:
 skill:
   enable: true
   item:
+    - title: Rust
+      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/rust.svg
+      description: Currently learning and using for personal projects
+    - title: C
+      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/c.svg
+      description: Experienced and used for developing Linux Loadable Kernel Module during my Master studies
+    - title: C++
+      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/c++.svg
+      description: Experienced and used for data structures and algorithms, computer graphics during my Bachelor studies
     - title: Spring Boot
       logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/springboot.svg
       description: Mainly used at work for developing microservices
@@ -42,15 +51,6 @@ skill:
     - title: Linux
       logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/linux.svg
       description: Main OS for personal projects. Slightly experienced with writing simple bash/shell scripts. Used as main OS for servers at work
-    - title: Rust
-      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/rust.svg
-      description: Currently learning and using for personal projects
-    - title: C
-      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/c.svg
-      description: Experienced and used for developing Linux Loadable Kernel Modules during my Master studies
-    - title: C++
-      logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/c++.svg
-      description: Experienced and used for data structures and algorithms, computer graphics during my Bachelor studies
     - title: Python
       logo: https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/skills/python.svg
       description: Slightly experienced and used for small projects and machine learning during my Master studies
@@ -117,5 +117,5 @@ leadership:
       duration: September 2014 - July 2018
 portfolio:
   filter:
-    - label: Education
-      value: education
+    - label: Academic
+      value: academic

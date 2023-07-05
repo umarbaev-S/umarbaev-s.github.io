@@ -1,10 +1,10 @@
 +++
-categories = ["education"]
+categories = ["academic"]
 coders = []
 date = 2023-07-03
 description = "AOSV Final Project"
 github = ["https://github.com/umarbaev-S/AOSV-project"]
-image = "images/about/profile.jpg"
+image = "https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/assets/images/other/academic.png"
 title = "User Mode thread Scheduling"
 type = "post"
 [[tech]]
