@@ -12,9 +12,12 @@ social:
 about:
   enable: true
   content: Software Engineer, interested in System Design and Low-Level Engineering
-  # button:
-    # btnText: Find out more
-    # URL: "/about"
+  button1:
+    btnText: resume (eng)
+    URL: "files/CV_Resume_eng.pdf"
+  button2:
+    btnText: resume (ru)
+    URL: "files/CV_Resume_ru.pdf"
 skill:
   enable: true
   item:

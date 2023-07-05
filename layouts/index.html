@@ -94,7 +94,10 @@
         <div class="uk-text-center">
             {{ with .Site.Data.homepage.about }}
             <p class="uk-text-lead">{{.content | markdownify}}</p>
-            {{ with .button }}
+            {{ with .button1 }}
+            <a class="uk-button uk-button-text" href="{{.URL| absURL}}">{{.btnText}}</a>
+            {{end}}
+            {{ with .button2 }}
             <a class="uk-button uk-button-text" href="{{.URL| absURL}}">{{.btnText}}</a>
             {{end}}
             {{end}}

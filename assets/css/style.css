@@ -4,11 +4,13 @@
 }
 
 .uk-button-text {
-  border-bottom: 1px solid #333;
+  color: #ffffff;
+  border-bottom: 1px solid #454545;
 }
 
 .uk-button-text::before {
-  border-bottom: 1px solid mediumblue;
+  color: #ffffff;
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .footer-section h5 {
@@ -124,10 +126,13 @@ body.dark-mode ul.uk-navbar-nav li.uk-active a {
 body.dark-mode .uk-card h3,
 body.dark-mode .uk-card p,
 body.dark-mode .uk-card a,
-body.dark-mode .uk-button,
 body.dark-mode .uk-dropdown,
 body.dark-mode .uk-card {
   background: rgb(44, 57, 75);
+  color: #f5f5f5;
+}
+
+body.dark-mode .uk-button {
   color: #f5f5f5;
 }
 
