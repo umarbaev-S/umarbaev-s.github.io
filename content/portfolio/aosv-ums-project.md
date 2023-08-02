@@ -8,9 +8,9 @@ image = "images/other/academic.png"
 title = "User Mode thread Scheduling"
 type = "post"
 [[tech]]
-logo = "images/skills/c.svg"
+logo = "https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/static/images/skills/c.svg"
 name = "C"
-url = "https://github.com/umarbaev-S/AOSV-project/tree/master/src"
+url = "https://en.cppreference.com/w/c/language"
 
 +++
 # AOSV Final Project Report

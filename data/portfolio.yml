@@ -1,3 +1,5 @@
 filter:
   - label: Academic
     value: academic
+  - label: Personal
+    value: personal
