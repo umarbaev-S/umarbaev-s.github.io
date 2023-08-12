@@ -71,6 +71,9 @@
         {{ end }} {{ if .Site.Data.homepage.social.whatsapp }}
         <li><a href="https://wa.me/{{ .Site.Data.homepage.social.whatsapp}}"> 
             <img class="contain" src="https://cdn.svgporn.com/logos/whatsapp.svg" alt="Whatsapp" loading="lazy"></a></li>
+        {{ end }} {{ if .Site.Data.homepage.social.hackthebox }}
+        <li><a href="{{ .Site.Data.homepage.social.hackthebox}}"> 
+            <img class="contain" src="images/other/hackthebox.svg" alt="HackTheBox" loading="lazy"></a></li>
         {{ end }}
     </ul>
 
