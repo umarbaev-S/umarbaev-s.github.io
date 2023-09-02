@@ -75,7 +75,7 @@ experience:
     - logo: images/experience/fs_logo.png
       title: Full Stack .NET Developer
       company: FinanceSoft
-      duration: May 2022 - August 2022 (3 mth.)
+      duration: May 2022 - July 2022 (3 mth.)
       description:
         - desc: Worked on projects - Loan Conveyor, Central Back Office(CBO)
         - desc: Conducted debugging and maintenance of the existing web applications(Loan Conveyor, CBO)
@@ -84,7 +84,7 @@ experience:
     - logo: images/experience/naskr_logo.png
       title: Engineer in Institute of Automatics and IT
       company: National Academy of Sciences of Kyrgyzstan
-      duration: December 2019 - July 2020 (6 mth.)
+      duration: December 2019 - May 2020 (6 mth.)
       description:
         - desc: Worked on the project of developing a prototype of air pollution monitoring system for Bishkek
         - desc: Conducted market research on transceivers and sensor devices
