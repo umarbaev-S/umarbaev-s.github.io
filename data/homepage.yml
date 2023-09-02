@@ -12,7 +12,8 @@ social:
   hackthebox: https://app.hackthebox.com/profile/562613
 about:
   enable: true
-  content: Software Engineer, interested in System Design and Low-Level Engineering
+  content1: Striving to be Software and Computer Engineer, not just Software Developer
+  content2: Interested in System Design and Low-Level Engineering
   button1:
     btnText: resume (eng)
     URL: "files/CV_Resume_eng.pdf"
