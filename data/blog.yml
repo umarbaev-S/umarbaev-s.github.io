@@ -1,3 +1,7 @@
 filter:
-  - label: test
-    value: test
+  - label: Hrafnulf's Challenges
+    value: hrafnulf-challenges
+  - label: Coding Adventures
+    value: coding-adventures
+  - label: System Design
+    value: system-design
