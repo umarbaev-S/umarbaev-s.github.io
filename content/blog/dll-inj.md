@@ -14,7 +14,7 @@ Who is [0x13hrafnulf](https://umarbaevb.github.io/)?
 
 Simple DLL injector with GUI written in C++ for educational purposes only
 ## Demo
-![demo](../media/dll-inj/demo.gif)
+![demo](.../media/dll-inj/demo.gif)
 ## Code organization
 - **GUI** - GUI management using [**Dear ImGui**](https://github.com/ocornut/imgui)
 - **Injection** - DLL injection implemention using Windows API
