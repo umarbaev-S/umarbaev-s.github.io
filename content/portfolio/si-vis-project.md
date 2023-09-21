@@ -27,13 +27,13 @@ Simple system info visualizer written in Rust for educational purposes only
 	- `si_data`, stores and updates system info data
 ## Screenshots
 General system info tab
-![sys-info-tab](media/si-vis/sys-info-tab.jpg)
+![sys-info-tab](../media/si-vis/sys-info-tab.jpg)
 
 CPU and its usage info tab 
-![cpu-info-tab](media/si-vis/cpu-info-tab.jpg)
+![cpu-info-tab](../media/si-vis/cpu-info-tab.jpg)
 
 Processes info table tab
-![processes-info-tab](media/si-vis/processes-info-tab.jpg)
+![processes-info-tab](../media/si-vis/processes-info-tab.jpg)
 ## Future plans
 - Change UI from `egui` to [ratatui](https://github.com/ratatui-org/ratatui)
 - Reorganize app layout
