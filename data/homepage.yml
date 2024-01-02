@@ -14,6 +14,7 @@ about:
   enable: true
   content1: Striving to be Software and Computer Engineer, not just Software Developer
   content2: Interested in System Design and Low-Level Engineering
+  content3: Passion for low level concepts and underlying implementations
   button1:
     btnText: resume (eng)
     URL: "files/CV_Resume_eng.pdf"
@@ -23,15 +24,15 @@ about:
 skill:
   enable: true
   item:
-    - title: Rust
-      logo: images/skills/rust.svg
-      description: Currently learning and using for personal projects
-    - title: C
-      logo: images/skills/c.svg
-      description: Experienced and used for developing Linux Loadable Kernel Module during my Master studies
     - title: C++
       logo: images/skills/c++.svg
       description: Experienced and used for data structures and algorithms, computer graphics during my Bachelor studies
+    - title: C
+      logo: images/skills/c.svg
+      description: Experienced and used for developing Linux Loadable Kernel Module during my Master studies
+    - title: Rust
+      logo: images/skills/rust.svg
+      description: Currently learning
     - title: Spring Boot
       logo: images/skills/springboot.svg
       description: Mainly used at work for developing microservices
@@ -67,11 +68,12 @@ experience:
       company: OJSC Optima Bank
       duration: September 2022 - Present
       description:
-        - desc: Worked on project - Optima-business (remote banking service system) for legal entities
-        - desc: Developed integral components of the system (microservice architecture) - business and validation rule engine service for payments, service for generating payment documents from templates, service for importing payments using files with custom formats, etc.
-        - desc: Wrote functions/stored procedures in PostgreSQL - search with filtering, unique document number generation base on requirements
-        - desc: Contributed on the development and maintainment of the payment service
+        - desc: Worked on project - Optima Business (OB), remote banking service system for legal entities
+        - desc: Developed integral components of the OB project (microservice architecture) - business and validation rule engine service for payments, service for generating payment documents from templates, service for importing payments using files with custom formats, etc.
+        - desc: Wrote and optimized functions/stored procedures in PostgreSQL - search with filtering, unique document number generation based on requirements
+        - desc: Contributed on the development and maintainment of the payment service in OB project
         - desc: Assisted in configuring and setting up early versions of Gitlab CI/CD processes
+        - desc: Assisted in maintaining some infrastructure related tasks
     - logo: images/experience/fs_logo.png
       title: Full Stack .NET Developer
       company: FinanceSoft
