@@ -5,7 +5,7 @@
 
 li {
     font-weight: 450;
-    color: #29292B;
+    color: #263041;
     font-size: 1rem;
     line-height: 1.8;
     font-family: Cantarell, sans-serif
@@ -30,7 +30,7 @@ ul.icons li a {
     width: 5em;
     height: 5em;
     border-radius: 100%;
-    border: solid 2px #18181A;
+    border: solid 2px #263041;
     line-height: 4.75em;
     overflow: hidden;
     text-align: center;
@@ -73,7 +73,7 @@ ul.icons li a:before {
     line-height: inherit;
     text-align: center;
     text-indent: 0;
-    border-color: #18181A;
+    border-color: #263041;
 }
 
 ul.icons li a:hover {
