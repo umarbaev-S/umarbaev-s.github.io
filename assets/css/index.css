@@ -5,7 +5,7 @@
 
 li {
     font-weight: 450;
-    color: #454545;
+    color: #11244A;
     font-size: 1rem;
     line-height: 1.8;
     font-family: Cantarell, sans-serif
@@ -30,7 +30,7 @@ ul.icons li a {
     width: 5em;
     height: 5em;
     border-radius: 100%;
-    border: solid 2px #454545;
+    border: solid 2px #11244A;
     line-height: 4.75em;
     overflow: hidden;
     text-align: center;
@@ -60,7 +60,7 @@ ul.icons li a:before {
 }
 
 ul.icons li a:hover:before {
-    text-shadow: 1.25px 0px 0px #454545, -1.25px 0px 0px #454545, 0px 1.25px 0px #454545, 0px -1.25px 0px #454545;
+    text-shadow: 1.25px 0px 0px #11244A, -1.25px 0px 0px #11244A, 0px 1.25px 0px #11244A, 0px -1.25px 0px #11244A;
 }
 
 ul.icons li a:before {
@@ -73,7 +73,7 @@ ul.icons li a:before {
     line-height: inherit;
     text-align: center;
     text-indent: 0;
-    border-color: #454545;
+    border-color: #11244A;
 }
 
 ul.icons li a:hover {
