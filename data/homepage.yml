@@ -34,7 +34,7 @@ skill:
       logo: images/skills/text-x-makefile.svg
       description: Basic knowledge, used in projects during my studies
     - title: CMake
-      logo: images/skills/CMake.svg
+      logo: images/skills/cmake.svg
       description: Basic knowledge, used in projects during my studies
     - title: Rust
       logo: images/skills/rust.svg
