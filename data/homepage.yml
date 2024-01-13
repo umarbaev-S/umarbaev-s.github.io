@@ -13,8 +13,8 @@ social:
 about:
   enable: true
   content1: Striving to be Software and Computer Engineer, not just Software Developer
-  content2: Interested in System Design and Low-Level Engineering
-  content3: Passion for low level concepts and underlying implementations
+  content2: Interested in System Design and Low-Level Engineering\nPassion for low-level concepts and underlying implementations
+  content3: 
   button1:
     btnText: resume (eng)
     URL: "files/CV_Resume_eng.pdf"

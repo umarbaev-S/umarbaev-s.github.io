@@ -97,8 +97,8 @@
         <div class="uk-text-center">
             {{ with .Site.Data.homepage.about }}
             <p class="uk-text-lead uk-text-bold">{{.content1 | markdownify}}</p>
-            <p class="uk-text-lead">{{.content2 | markdownify}}</p>
-            <p class="uk-text-lead">{{.content3 | markdownify}}</p>
+            <p class="uk-text-default">{{.content2 | markdownify}}</p>
+            <!-- <p class="uk-text-default">{{.content3 | markdownify}}</p> -->
             {{ with .button1 }}
             <a class="uk-button uk-button-text" href="{{.URL| absURL}}">{{.btnText}}</a>
             {{end}}
