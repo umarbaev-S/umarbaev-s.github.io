@@ -28,7 +28,7 @@ skill:
       logo: images/skills/c++.svg
       description: Experienced and used for data structures and algorithms, computer graphics during my Bachelor studies
     - title: C
-      logo: images/skills/c2.svg
+      logo: images/skills/c.svg
       description: Experienced and used for developing Linux Loadable Kernel Module during my Master studies
     - title: Make
       logo: images/skills/text-x-makefile.svg
@@ -61,7 +61,7 @@ skill:
       logo: images/skills/windows.svg
       description: Main operating system at work
     - title: Linux
-      logo: images/skills/linux2.svg
+      logo: images/skills/linux.svg
       description: Main OS for personal projects. Slightly experienced with writing simple bash/shell scripts. Used as main OS for servers at work
     - title: Python
       logo: images/skills/python.svg
