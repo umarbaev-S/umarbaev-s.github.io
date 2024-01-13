@@ -34,7 +34,7 @@ skill:
       logo: images/skills/text-x-makefile.svg
       description: Basic knowledge, used in projects during my studies
     - title: CMake
-      logo: images/skills/cmake.svg
+      logo: images/skills/icon-cmake.svg
       description: Basic knowledge, used in projects during my studies
     - title: Rust
       logo: images/skills/rust.svg
@@ -43,7 +43,7 @@ skill:
       logo: images/skills/springboot.svg
       description: Mainly used at work for developing microservices
     - title: PostgresSQL
-      logo: images/skills/postgres.svg
+      logo: images/skills/postgresql.svg
       description: Used at work as main RDMS for microservices
     - title: RabbitMQ
       logo: images/skills/rabbitmq.svg
