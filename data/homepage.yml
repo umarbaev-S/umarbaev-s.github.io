@@ -13,8 +13,8 @@ social:
 about:
   enable: true
   content1: Striving to be Software and Computer Engineer, not just Software Developer
-  content2: Interested in System Design and Low-Level Engineering\nPassion for low-level concepts and underlying implementations
-  content3: 
+  content2: Interested in System Design and Low-Level Engineering
+  content3: Passion for low-level concepts and underlying implementations
   button1:
     btnText: resume (eng)
     URL: "files/CV_Resume_eng.pdf"
@@ -30,6 +30,12 @@ skill:
     - title: C
       logo: images/skills/c.svg
       description: Experienced and used for developing Linux Loadable Kernel Module during my Master studies
+    - title: Make
+      logo: images/skills/text-x-makefile.svg
+      description: Basic knowledge, used in projects during my studies
+    - title: CMake
+      logo: images/skills/CMake.svg
+      description: Basic knowledge, used in projects during my studies
     - title: Rust
       logo: images/skills/rust.svg
       description: Currently learning
