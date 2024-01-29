@@ -7,7 +7,7 @@ author: "Sultan Umarbaev"
 type: "post"
 ---
 
-Who is [0x13hrafnulf](https://umarbaevb.github.io/)? 
+Who is [0x13hrafnulf](https://0x13hrafnulf.github.io/)? 
 
 # Simple DLL injector with GUI (dll-inj)
 *in development*
