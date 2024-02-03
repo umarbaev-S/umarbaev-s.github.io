@@ -3,12 +3,12 @@ categories = ["personal"]
 coders = []
 date = 2023-08-01
 description = "si-vis"
-github = ["https://github.com/umarbaev-S/si-vis"]
+github = ["https://github.com/0x5bjorn/si-vis"]
 image = "images/other/sys-info.png"
 title = "System Info visualizer"
 type = "post"
 [[tech]]
-logo = "https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/static/images/skills/rust.svg"
+logo = "https://raw.githubusercontent.com/0x5bjorn/0x5bjorn.github.io/master/static/images/skills/rust.svg"
 name = "Rust"
 url = "https://www.rust-lang.org/"
 

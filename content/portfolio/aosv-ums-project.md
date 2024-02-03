@@ -3,12 +3,12 @@ categories = ["academic"]
 coders = []
 date = 2023-07-03
 description = "AOSV Final Project"
-github = ["https://github.com/umarbaev-S/AOSV-project"]
+github = ["https://github.com/0x5bjorn/AOSV-project"]
 image = "images/other/academic.png"
 title = "User Mode thread Scheduling"
 type = "post"
 [[tech]]
-logo = "https://raw.githubusercontent.com/umarbaev-S/umarbaev-s.github.io/master/static/images/skills/c.svg"
+logo = "https://raw.githubusercontent.com/0x5bjorn/0x5bjorn.github.io/master/static/images/skills/c.svg"
 name = "C"
 url = "https://en.cppreference.com/w/c/language"
 
